@@ -1,0 +1,17 @@
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  & > * {
+    width: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    @media (min-width: 430px) {
+      width: 200px;
+    }
+  }
+}
+

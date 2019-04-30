@@ -1,0 +1,10 @@
+
+.wrapper-box {
+    max-width: 100%;
+    padding: 2rem;
+    background-color: beige;
+    margin: 0 auto;
+    @media screen and (min-width: 600px){
+        max-width: 560px;
+    }
+}
